@@ -5,11 +5,11 @@
   },
   "AdamW Weight Decay": {
     "key": "AdamW 權重衰減",
-    "tooltip": "The weight decay of the AdamW Optimizer. Values closer to 0 closely match your training dataset, and values closer to 1 generalize more and deviate from your training dataset. Default is 1e-2, values lower than 0.1 are recommended."
+    "tooltip": "AdamW 優化器的權重衰減。數值越接近 0，越能與訓練資料集匹配，數值越接近 1，越能泛化且與訓練資料集偏離。預設值為 1e-2，建議使用低於 0.1 的數值。"
   },
   "Amount of time to pause between Epochs (s)": {
     "key": "每訓練週期之間暫停的時間（秒）",
-    "tooltip": "When 'Pause After N Epochs' is greater than 0, this is the amount of time, in seconds, that training will be paused for"
+    "tooltip": "當「訓練 N 個 Epochs 後暫停」設置大於 0 時，表示訓練將會在指定秒數內暫停。"
   },
   "Apply Horizontal Flip": {
     "key": "套用水平翻轉",
@@ -96,7 +96,7 @@
     "tooltip": "檢查實例和類圖像並報告沒有相應類圖像的任何實例圖像。"
   },
   "Discord Webhook": {
-    "key": "Discord Webhook",
+    "key": "Discord 網絡鉤手",
     "tooltip": "生成後將訓練樣本發送到 Discord 頻道。"
   },
   "Existing Prompt Contents": {
@@ -124,7 +124,7 @@
     "tooltip": "使用源模型權重存檔點和文生圖產生類圖像。"
   },
   "Generate Classification Images to match Instance Resolutions": {
-    "key": "Generate Classification Images to match Instance Resolutions",
+    "key": "生成與實例解析度相匹配的分類圖像",
     "tooltip": "而不是產生正方形類圖像，它們將以與類圖像相同的分辨率產生。"
   },
   "Generate Graph": {
@@ -421,7 +421,7 @@
   },
   "Shuffle Tags": {
     "key": "洗牌標籤",
-    "tooltip": "啟用後，將在第一個 epoch 後對數據集進行隨機排序。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
+    "tooltip": "啟用後，提示詞中 \",\" 後的第一個標記將被隨機排序，有可能優化訓練。"
   },
   "Source Checkpoint": {
     "key": "源模型權重存檔點",
@@ -496,11 +496,11 @@
     "tooltip": "使用低秩適應進行快速文本到圖像擴散微調。使用較少的 VRAM，保存為 .pt 文件而不是完整的檢查點"
   },
   "Use Lifetime Epochs When Saving": {
-    "key": "Use Lifetime Epochs When Saving",
-    "tooltip": "When checked, will save preview images and checkpoints using lifetime epochs, versus current training epochs."
+    "key": "在保存時使用生命週期（Lifetime Epochs）",
+    "tooltip": "當勾選此選項時，將使用生命週期（Lifetime Epochs）來保存預覽圖像和檢查點，而不是使用當前的訓練週期（Current Training Epochs）。"
   },
   "Use Lifetime Steps When Saving": {
-    "key": "Use Lifetime Steps When Saving",
-    "tooltip": "When checked, will save preview images and checkpoints using lifetime steps, versus current training steps."
+    "key": "在保存時使用生命週期步數（Lifetime Steps）",
+    "tooltip": "當勾選此選項時，將使用生命週期步數（Lifetime Steps）來保存預覽圖像和檢查點，而不是使用當前的訓練步數（Current Training Steps）。"
   }
 }

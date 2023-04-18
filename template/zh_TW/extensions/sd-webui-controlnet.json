@@ -16,7 +16,7 @@
   "Enable optimized monocular depth estimation": "啟用單色深度估算優化",
   "Only use mid-control when inference": "僅在推論時使用中間層控制",
   "Enable CFG-Based guidance": "啟用以提示詞相關性引導",
-  "Passing ControlNet parameters with \"Send to img2img\"": "Passing ControlNet parameters with \"Send to img2img\"",
+  "Passing ControlNet parameters with \"Send to img2img\"": "通過\"發送給img2img\"來傳遞ControlNet參數",
   "sd-webui-controlnet": "sd-webui-controlnet",
   "https://github.com/Mikubill/sd-webui-controlnet.git": "https://github.com/Mikubill/sd-webui-controlnet.git",
   "Image": "映像檔",
