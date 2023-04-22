@@ -6,30 +6,16 @@ on:
       - translations
     types:
       - opened
+      - synchronize
 
 jobs:
-  auto-merge-PR:
-    runs-on: ubuntu-latest
-    if: github.actor == 'harukaxxxx'
-    steps:
-      - name: automerge
-        uses: "pascalgn/automerge-action@v0.15.6"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-
   merge-localization:
-    needs: auto-merge-PR
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository content
+      - name: checkout to l10n branch
         uses: actions/checkout@v3
         with:
-          ref: translations
-
-      - name: pull latest changes
-        run: |
-          git config pull.rebase false
-          git pull origin translations
+          ref: l10n
 
       - name: setup python
         uses: actions/setup-python@v4.5.0
@@ -39,35 +25,19 @@ jobs:
       - name: run merger.py
         run: python '.github/workflows/merge-localization.py'
 
-      - name: configure git
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: commit changes
-        run: |
-          git add localizations/zh_TW.json
-          git diff-index --quiet HEAD || (git commit -m "🔧 build(zh_TW.json): merge localization")
-
-      - name: push changes
-        uses: ad-m/github-push-action@master
+      - name: upload zh_TW.json
+        uses: actions/upload-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: translations
+          name: zh_TW.json
+          path: localizations/zh_TW.json
 
   update-progress:
-    needs: merge-localization
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository content
+      - name: to translations branch
         uses: actions/checkout@v3
         with:
           ref: translations
-
-      - name: pull latest changes
-        run: |
-          git config pull.rebase false
-          git pull origin translations
 
       - name: setup python
         uses: actions/setup-python@v4.5.0
@@ -82,38 +52,37 @@ jobs:
           crowdin_api_token: ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
         run: python '.github/workflows/crowdin-tool.py'
 
-      - name: configure git
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: commit changes
-        run: |
-          git add README.md
-          git diff-index --quiet HEAD || (git commit -m "📃 docs:(README.md): update progress list")
-
-      - name: push changes
-        uses: ad-m/github-push-action@master
+      - name: upload README.md
+        uses: actions/upload-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: translations
+          name: README.md
+          path: README.md
 
-  push-to-main:
-    needs: update-progress
+  push-changes-to-translations:
+    needs: [merge-localization, update-progress]
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository content
+      - name: checkout to translations branch
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: translations
 
-      - name: download localizations and README.md
+      - name: Remove existing files
         run: |
-          mkdir -p temp
-          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/archive/refs/heads/translations.tar.gz | tar -xz --strip-components=1 -C temp
-          mkdir -p localizations
-          cp -rf temp/localizations/* localizations
-          cp -rf temp/README.md .
+          rm -f README.md
+          rm -f localizations/zh_TW.json
+
+      - name: download README.md
+        uses: actions/download-artifact@v3
+        with:
+          name: README.md
+          path: README.md
+
+      - name: download zh_TW.json
+        uses: actions/download-artifact@v3
+        with:
+          name: zh_TW.json
+          path: localizations/zh_TW.json
 
       - name: configure git
         run: |
@@ -124,10 +93,63 @@ jobs:
         run: |
           git add README.md
           git add localizations/zh_TW.json
-          git diff-index --quiet HEAD || (git commit -m "✨ feat: update localizations")
+          git diff-index --quiet HEAD || (git commit -m "✨ feat: merge localization and update progress list")
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: translations
+
+  push-changes-to-main:
+    needs: [merge-localization, update-progress]
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout to main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Remove existing files
+        run: |
+          rm -f README.md
+          rm -f localizations/zh_TW.json
+
+      - name: download README.md
+        uses: actions/download-artifact@v3
+        with:
+          name: README.md
+          path: README.md
+
+      - name: download zh_TW.json
+        uses: actions/download-artifact@v3
+        with:
+          name: zh_TW.json
+          path: localizations/zh_TW.json
+
+      - name: configure git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add README.md
+          git add localizations/zh_TW.json
+          git diff-index --quiet HEAD || (git commit -m "✨ feat: merge localization and update progress list")
 
       - name: push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
+  auto-merge-PR:
+    needs: [push-changes-to-translations, push-changes-to-main]
+    runs-on: ubuntu-latest
+    if: github.actor == 'harukaxxxx'
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.15.6"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
