@@ -4,6 +4,8 @@ on:
   pull_request:
     branches:
       - translations
+    types:
+      - opened
 
 jobs:
   auto-merge-PR:
