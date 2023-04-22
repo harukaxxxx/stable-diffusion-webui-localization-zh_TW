@@ -144,7 +144,7 @@
   "Latent Couple": "潛在變數伴侶",
   "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts. Note: New maintainer, uninstall prev. ext if needed.": "內置 Composable Diffusion 擴充功能，能使您將子提示詞反映在特定的潛在變數空間區域。注意：如有必要，請解除安裝先前的擴充功能。",
   "Composable LoRA": "Composable LoRA",
-  "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.": "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.",
+  "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.": "允許使用 AND 關鍵字（composable diffusion）來限制 LoRA 到子提示詞。當與潛在變數伴侶擴充功能搭配使用時非常有用。",
   "Auto TLS-HTTPS": "自動使用安全性傳輸協定（https）",
   "Allows you to easily, or even completely automatically start using HTTPS.": "讓你可以很簡單的自動配置安全性傳輸協定（https）",
   "booru2prompt": "booru轉提示詞",
