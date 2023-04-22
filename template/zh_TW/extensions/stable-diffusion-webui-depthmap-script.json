@@ -23,7 +23,7 @@
   "Balance between eyes": "Balance between eyes",
   "Generate 3D inpainted mesh. (Sloooow)": "Generate 3D inpainted mesh. (Sloooow)",
   "Generate 4 demo videos with 3D inpainted mesh.": "Generate 4 demo videos with 3D inpainted mesh.",
-  "Remove background": "Remove background",
+  "Remove background": "移除背景",
   "Save the foreground masks": "儲存前景遮罩",
   "pre-depth background removal": "pre-depth background removal",
   "Rembg Model": "Rembg Model",
@@ -34,11 +34,11 @@
   "A file on the same machine where the server is running.": "A file on the same machine where the server is running.",
   "Number of frames": "Number of frames",
   "Framerate": "偵率",
-  "Format": "Format",
+  "Format": "格式",
   "Trajectory": "Trajectory",
   "Translate: x, y, z": "Translate: x, y, z",
   "Crop: top, left, bottom, right": "Crop: top, left, bottom, right",
   "Dolly": "Dolly",
-  "Generate Video": "Generate Video",
+  "Generate Video": "產生影片",
   "https://github.com/thygate/stable-diffusion-webui-depthmap-script.git": "https://github.com/thygate/stable-diffusion-webui-depthmap-script.git"
 }
