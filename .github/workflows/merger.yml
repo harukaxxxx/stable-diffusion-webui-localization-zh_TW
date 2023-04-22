@@ -1,9 +1,9 @@
 name: Build translation and update progress
 
 on:
-  pull_request:
-    branches:
-      - translations
+  workflow_dispatch:
+  schedule:
+    - cron: "0 16,4 * * *"
 
 jobs:
   auto-merge-PR:
@@ -24,6 +24,11 @@ jobs:
         with:
           ref: translations
 
+      - name: pull latest changes
+        run: |
+          git config pull.rebase false
+          git pull origin translations
+
       - name: setup python
         uses: actions/setup-python@v4.5.0
         with:
@@ -42,11 +47,6 @@ jobs:
           git add localizations/zh_TW.json
           git diff-index --quiet HEAD || (git commit -m "🔧 build(zh_TW.json): merge localization")
 
-      - name: Pull latest changes
-        run: |
-          git config pull.rebase false
-          git pull
-
       - name: push changes
         uses: ad-m/github-push-action@master
         with:
@@ -61,6 +61,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: translations
+
+      - name: pull latest changes
+        run: |
+          git config pull.rebase false
+          git pull origin translations
 
       - name: setup python
         uses: actions/setup-python@v4.5.0
