@@ -79,9 +79,7 @@
 
 # 安裝說明
 
-## 通過官方擴充功能列表（推薦）
-
-1. 點選 `Extensions` 頁籤，然後點選下面的 `Available` 頁籤
+1. 在 webui 中點選 `Extensions` 頁籤，然後點選下面的 `Available` 頁籤
 2. 取消 `localization` 的核取方塊，然後點選橙色的 `Load from` 按鈕
 
 ![image](https://user-images.githubusercontent.com/5777085/227784125-4dd583f4-b541-4eac-8e31-1588ecedecdb.png)
@@ -94,37 +92,6 @@
 4. 點選 `Installed` 頁籤，再點選 `Apply and restart UI` 套用擴充功能，使用者介面會重新啟動。
 
 ![image](https://user-images.githubusercontent.com/5777085/227784328-fee7ec95-ac71-48ba-9bf4-d94b2dffa741.png)
-
-## 其他安裝方法（不推薦）
-
-<details>
-<summary>通過GitHub倉庫網址</summary>
-
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Install from URL` 頁籤
-2. 複製以下的網址，然後貼進 `URL for extension's git repository` 欄：
-
-```
-https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
-```
-
-3. 點擊橙色的 `Install` 按鈕：
-
-![image](https://user-images.githubusercontent.com/116663807/204526841-45f4c104-9958-48b0-81d7-6e1046e463c2.png)
-
-</details>
-
-<details>
-<summary>下载ZIP壓縮檔案，手動安裝</summary>
-
-1. [下載本 GitHub 倉庫](https://codeload.github.com/benlisquare/stable-diffusion-webui-localization-zh_TW/zip/refs/heads/main)為 ZIP 壓縮檔案
-
-![image](https://user-images.githubusercontent.com/116663807/204527142-94e3225b-40fe-4ee6-b136-92a24fe8fc16.png)
-
-2. 解壓後把資料夾放在 `stable-diffusion-webui` 根目錄裏面的 `extensions` 資料夾中：
-
-![image](https://user-images.githubusercontent.com/116663807/204527428-174c17ed-716a-428e-b4f1-3ef3c11d5a3c.png)
-
-</details>
 
 # 使用說明
 
@@ -157,4 +124,19 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 
 # 協助翻譯
 
-**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/blob/main/.github/CONTRIBUTING.md) 頁面。
+**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，才能盡可能的保持完整與最新的翻譯內容。
+目前翻譯全部在 Crowdin 上進行，這有許多好處，例如翻譯記憶、術語表提示、螢幕截圖對照、重複自動翻譯以及翻譯批准等功能，請依下列步驟加入 Crowdin 專案。
+
+## 成為翻譯者
+
+1. 註冊 [Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW) 帳號。
+2. 點此連結加入專案並成為翻譯者：[加入 Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW/invite?h=91acfca2c381f37b8562935bc9e40d501625831)。
+3. 挑選想翻譯的檔案進行翻譯。
+
+## 新增 / 修改原文
+
+如果需要新增或修改原文，請至 [stable-diffusion-webui-localization-source](https://github.com/harukaxxxx/stable-diffusion-webui-localization-source) 參考相關說明操作。
+
+## 譯文合併
+
+在 Crowdin 上完成的翻譯內容每一個小時會自動更新一次並推送至 `translations` 分支，Github actions 在每日 `00:00` 以及 `12:00` (UTC+08:00) 會自動合併 Crowdin 的 PR 並將翻譯內容合併後推送至從 `main` 分支。
