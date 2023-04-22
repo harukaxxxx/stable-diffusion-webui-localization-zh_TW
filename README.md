@@ -13,14 +13,13 @@
 <details>
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
-- [ ] ![ExtensionList translated 80%](https://geps.dev/progress/80?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
 - [x] ![StableDiffusion translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ ] ![ExtensionList translated 81%](https://geps.dev/progress/81?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
 </details>
 
 <details>
 <summary>擴充功能本地化進度</summary>
 
-- [ ] ![Abysz-LAB-Ext translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [Abysz-LAB-Ext]()
 - [x] ![DreamArtist-sd-webui-extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [DreamArtist-sd-webui-extension](https://github.com/7eu7d7/DreamArtist-sd-webui-extension)
 - [ ] ![Hypernetwork-MonkeyPatch-Extension translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [Hypernetwork-MonkeyPatch-Extension](https://github.com/aria1th/Hypernetwork-MonkeyPatch-Extension)
 - [x] ![SD-latent-mirroring translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [SD-latent-mirroring](https://github.com/dfaker/SD-latent-mirroring)
@@ -29,7 +28,6 @@
 - [x] ![a1111-stable-diffusion-webui-vram-estimator translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [a1111-stable-diffusion-webui-vram-estimator](https://github.com/space-nuko/a1111-stable-diffusion-webui-vram-estimator)
 - [ ] ![auto-sd-paint-ext translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [auto-sd-paint-ext](https://github.com/Interpause/auto-sd-paint-ext)
 - [ ] ![deforum-for-automatic1111-webui translated 14%](https://geps.dev/progress/14?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
-- [x] ![multidiffusion-upscaler-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [x] ![novelai-2-local-prompt translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [novelai-2-local-prompt](https://github.com/animerl/novelai-2-local-prompt)
 - [x] ![openOutpaint-webUI-extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension)
 - [x] ![openpose-editor translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openpose-editor](https://github.com/fkunn1326/openpose-editor)
@@ -38,50 +36,50 @@
 - [x] ![sd-dynamic-prompts translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-dynamic-prompts]()
 - [x] ![sd-model-preview-xd translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-model-preview-xd](https://github.com/CurtisDS/sd-model-preview-xd)
 - [x] ![sd-webui-additional-networks translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
-- [x] ![sd-webui-aspect-ratio-helper translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [x] ![sd-webui-bilingual-localization translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-bilingual-localization](https://github.com/journey-ad/sd-webui-bilingual-localization)
-- [ ] ![sd-webui-controlnet translated 77%](https://geps.dev/progress/77?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-controlnet]()
-- [ ] ![sd-webui-cutoff translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-cutoff]()
+- [x] ![sd-webui-controlnet translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-controlnet]()
 - [x] ![sd-webui-depth-lib translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib)
-- [ ] ![sd-webui-llul translated 25%](https://geps.dev/progress/25?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-llul](https://github.com/hnmr293/sd-webui-llul)
-- [ ] ![sd-webui-regional-prompter translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-regional-prompter]()
+- [ ] ![sd-webui-llul translated 26%](https://geps.dev/progress/26?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-llul](https://github.com/hnmr293/sd-webui-llul)
 - [x] ![sd-webui-tunnels translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
 - [ ] ![sd_dreambooth_extension translated 96%](https://geps.dev/progress/96?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_dreambooth_extension]()
 - [ ] ![sd_smartprocess translated 59%](https://geps.dev/progress/59?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess)
 - [x] ![seed_travel translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [seed_travel](https://github.com/yownas/seed_travel)
 - [x] ![shift-attention translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [shift-attention](https://github.com/yownas/shift-attention)
-- [x] ![stable-diffusion-NPW translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-NPW]()
 - [x] ![stable-diffusion-webui-aesthetic-gradients translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-aesthetic-gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)
 - [x] ![stable-diffusion-webui-aesthetic-image-scorer translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-aesthetic-image-scorer](https://github.com/tsngo/stable-diffusion-webui-aesthetic-image-scorer)
 - [ ] ![stable-diffusion-webui-artists-to-study translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-artists-to-study](https://github.com/camenduru/stable-diffusion-webui-artists-to-study)
-- [ ] ![stable-diffusion-webui-auto-translate-language translated 33%](https://geps.dev/progress/33?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-auto-translate-language]()
-- [ ] ![stable-diffusion-webui-blip2-captioner translated 22%](https://geps.dev/progress/22?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-blip2-captioner]()
-- [ ] ![stable-diffusion-webui-cafe-aesthetic translated 15%](https://geps.dev/progress/15?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-cafe-aesthetic]()
 - [x] ![stable-diffusion-webui-conditioning-highres-fix translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-conditioning-highres-fix](https://github.com/klimaleksus/stable-diffusion-webui-conditioning-highres-fix)
 - [x] ![stable-diffusion-webui-daam translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-daam](https://github.com/toriato/stable-diffusion-webui-daam)
-- [ ] ![stable-diffusion-webui-dataset-tag-editor translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-dataset-tag-editor]()
-- [ ] ![stable-diffusion-webui-depthmap-script translated 19%](https://geps.dev/progress/19?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-depthmap-script](https://github.com/thygate/stable-diffusion-webui-depthmap-script)
+- [ ] ![stable-diffusion-webui-dataset-tag-editor translated 2%](https://geps.dev/progress/2?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-dataset-tag-editor]()
+- [ ] ![stable-diffusion-webui-depthmap-script translated 11%](https://geps.dev/progress/11?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-depthmap-script](https://github.com/thygate/stable-diffusion-webui-depthmap-script)
 - [x] ![stable-diffusion-webui-embedding-editor translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-embedding-editor]()
 - [ ] ![stable-diffusion-webui-images-browser translated 50%](https://geps.dev/progress/50?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-images-browser]()
-- [ ] ![stable-diffusion-webui-inspiration translated 2%](https://geps.dev/progress/2?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-inspiration](https://github.com/yfszzx/stable-diffusion-webui-inspiration)
+- [ ] ![stable-diffusion-webui-inspiration translated 3%](https://geps.dev/progress/3?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-inspiration](https://github.com/yfszzx/stable-diffusion-webui-inspiration)
 - [x] ![stable-diffusion-webui-pixelization translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-pixelization](https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization)
 - [x] ![stable-diffusion-webui-randomize translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-randomize]()
-- [ ] ![stable-diffusion-webui-rembg translated 6%](https://geps.dev/progress/6?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-rembg](https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg)
-- [ ] ![stable-diffusion-webui-state translated 41%](https://geps.dev/progress/41?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [ ] ![stable-diffusion-webui-text2prompt translated 53%](https://geps.dev/progress/53?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-text2prompt](https://github.com/toshiaki1729/stable-diffusion-webui-text2prompt)
 - [x] ![stable-diffusion-webui-tokenizer translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-tokenizer](https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer)
 - [x] ![stable-diffusion-webui-two-shot translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-two-shot](https://github.com/opparco/stable-diffusion-webui-two-shot)
-- [ ] ![stable-diffusion-webui-wd14-tagger translated 1%](https://geps.dev/progress/1?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-wd14-tagger]()
 - [x] ![training-picker translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [training-picker](https://github.com/Maurdekye/training-picker)
 - [x] ![ultimate-upscale-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ultimate-upscale-for-automatic1111](https://github.com/Coyote-A/ultimate-upscale-for-automatic1111)
 - [ ] ![unprompted translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [unprompted](https://github.com/ThereforeGames/unprompted)
+- [x] ![multidiffusion-upscaler-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
+- [ ] ![stable-diffusion-webui-rembg translated 11%](https://geps.dev/progress/11?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-rembg](https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg)
+- [x] ![sd-webui-aspect-ratio-helper translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
+- [ ] ![stable-diffusion-webui-state translated 41%](https://geps.dev/progress/41?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
+- [ ] ![stable-diffusion-webui-wd14-tagger translated 1%](https://geps.dev/progress/1?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-wd14-tagger]()
+- [ ] ![stable-diffusion-webui-auto-translate-language translated 33%](https://geps.dev/progress/33?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-auto-translate-language]()
+- [ ] ![sd-webui-cutoff translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-cutoff]()
+- [ ] ![stable-diffusion-webui-blip2-captioner translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-blip2-captioner]()
+- [ ] ![stable-diffusion-webui-cafe-aesthetic translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-cafe-aesthetic]()
+- [ ] ![Abysz-LAB-Ext translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [Abysz-LAB-Ext]()
+- [ ] ![sd-webui-regional-prompter translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-regional-prompter]()
+- [ ] ![stable-diffusion-NPW translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-NPW]()
 </details>
 
 # 安裝說明
 
-## 通過官方擴充功能列表（推薦）
-
-1. 點選 `Extensions` 頁籤，然後點選下面的 `Available` 頁籤
+1. 在 webui 中點選 `Extensions` 頁籤，然後點選下面的 `Available` 頁籤
 2. 取消 `localization` 的核取方塊，然後點選橙色的 `Load from` 按鈕
 
 ![image](https://user-images.githubusercontent.com/5777085/227784125-4dd583f4-b541-4eac-8e31-1588ecedecdb.png)
@@ -94,37 +92,6 @@
 4. 點選 `Installed` 頁籤，再點選 `Apply and restart UI` 套用擴充功能，使用者介面會重新啟動。
 
 ![image](https://user-images.githubusercontent.com/5777085/227784328-fee7ec95-ac71-48ba-9bf4-d94b2dffa741.png)
-
-## 其他安裝方法（不推薦）
-
-<details>
-<summary>通過GitHub倉庫網址</summary>
-
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Install from URL` 頁籤
-2. 複製以下的網址，然後貼進 `URL for extension's git repository` 欄：
-
-```
-https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
-```
-
-3. 點擊橙色的 `Install` 按鈕：
-
-![image](https://user-images.githubusercontent.com/116663807/204526841-45f4c104-9958-48b0-81d7-6e1046e463c2.png)
-
-</details>
-
-<details>
-<summary>下载ZIP壓縮檔案，手動安裝</summary>
-
-1. [下載本 GitHub 倉庫](https://codeload.github.com/benlisquare/stable-diffusion-webui-localization-zh_TW/zip/refs/heads/main)為 ZIP 壓縮檔案
-
-![image](https://user-images.githubusercontent.com/116663807/204527142-94e3225b-40fe-4ee6-b136-92a24fe8fc16.png)
-
-2. 解壓後把資料夾放在 `stable-diffusion-webui` 根目錄裏面的 `extensions` 資料夾中：
-
-![image](https://user-images.githubusercontent.com/116663807/204527428-174c17ed-716a-428e-b4f1-3ef3c11d5a3c.png)
-
-</details>
 
 # 使用說明
 
@@ -157,4 +124,19 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 
 # 協助翻譯
 
-**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/blob/main/.github/CONTRIBUTING.md) 頁面。
+**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，才能盡可能的保持完整與最新的翻譯內容。
+目前翻譯全部在 Crowdin 上進行，這有許多好處，例如翻譯記憶、術語表提示、螢幕截圖對照、重複自動翻譯以及翻譯批准等功能，請依下列步驟加入 Crowdin 專案。
+
+## 成為翻譯者
+
+1. 註冊 [Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW) 帳號。
+2. 點此連結加入專案並成為翻譯者：[加入 Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW/invite?h=91acfca2c381f37b8562935bc9e40d501625831)。
+3. 挑選想翻譯的檔案進行翻譯。
+
+## 新增 / 修改原文
+
+如果需要新增或修改原文，請至 [stable-diffusion-webui-localization-source](https://github.com/harukaxxxx/stable-diffusion-webui-localization-source) 參考相關說明操作。
+
+## 譯文合併
+
+在 Crowdin 上完成的翻譯內容每一個小時會自動更新一次並推送至 `translations` 分支，Github actions 在每日 `00:00` 以及 `12:00` (UTC+08:00) 會自動合併 Crowdin 的 PR 並將翻譯內容合併後推送至從 `main` 分支。
