@@ -1,21 +1,28 @@
-name: Merge localization
-run-name: Merging translated files to zh_TW.json in localization folder
+name: Build translation and update progress
 
 on:
-  workflow_dispatch:
-  pull_request_target:
+  pull_request:
     branches:
-      - main
-    types:
-      - closed
+      - translations
 
-jobs:       
-  buid:
-    if: github.repository == 'benlisquare/stable-diffusion-webui-localization-zh_TW' && github.event.pull_request.merged == true
+jobs:
+  auto-merge-PR:
+    runs-on: ubuntu-latest
+    if: github.actor == 'harukaxxxx'
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.15.6"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+  merge-localization:
+    needs: auto-merge-PR
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository content
         uses: actions/checkout@v3
+        with:
+          ref: translations
 
       - name: setup python
         uses: actions/setup-python@v4.5.0
@@ -23,14 +30,94 @@ jobs:
           python-version: "3.10.6"
 
       - name: run merger.py
-        run: python 'tools/merger.py'
+        run: python '.github/workflows/merge-localization.py'
 
-      - name: commit files
+      - name: configure git
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "🔧 build(zh_TW.json): merge localization" --allow-empty)
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add localizations/zh_TW.json
+          git diff-index --quiet HEAD || (git commit -m "🔧 build(zh_TW.json): merge localization")
+
+      - name: Pull latest changes
+        run: |
+          git config pull.rebase false
+          git pull
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: translations
+
+  update-progress:
+    needs: merge-localization
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+        with:
+          ref: translations
+
+      - name: setup python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: "3.10.6"
+
+      - name: install dependencies
+        run: pip install crowdin-api-client
+
+      - name: run crowdin tool.py
+        env:
+          crowdin_api_token: ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
+        run: python '.github/workflows/crowdin-tool.py'
+
+      - name: configure git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add README.md
+          git diff-index --quiet HEAD || (git commit -m "📃 docs:(README.md): update progress list")
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: translations
+
+  push-to-main:
+    needs: update-progress
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: download localizations and README.md
+        run: |
+          mkdir -p temp
+          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/archive/refs/heads/translations.tar.gz | tar -xz --strip-components=1 -C temp
+          mkdir -p localizations
+          cp -rf temp/localizations/* localizations
+          cp -rf temp/README.md .
+
+      - name: configure git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add README.md
+          git add localizations/zh_TW.json
+          git diff-index --quiet HEAD || (git commit -m "✨ feat: update localizations")
 
       - name: push changes
         uses: ad-m/github-push-action@master

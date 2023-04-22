@@ -1,27 +1,25 @@
 import json
 import os
 import glob
-import shutil
 from collections import defaultdict
 
-json_folder = './template/zh_TW'
-extensions_folder = './template/zh_TW/extensions'
-merged_file = './localizations/zh_TW.json'
-report_file = './tools/merge_report.txt'
+JSON_FOLDER = './template/zh_TW'
+EXTENSIONS_FOLDER = './template/zh_TW/extensions'
+MERGED_FILE = './localizations/zh_TW.json'
+REPORT_FILE = './tools/merge_report.txt'
 
 
 def merge_json_files():
     # Get all JSON files in the folder
-    json_files = glob.glob(os.path.join(json_folder, '*.json'))
-    if os.path.exists(extensions_folder):
-        json_files += glob.glob(os.path.join(extensions_folder, '*.json'))
+    json_files = glob.glob(os.path.join(JSON_FOLDER, '*.json'))
+    if os.path.exists(EXTENSIONS_FOLDER):
+        json_files += glob.glob(os.path.join(EXTENSIONS_FOLDER, '*.json'))
     # print(json_files)
     # Put StableDiffusion.json as the first element in the list
     stable_diffusion_file = './template/zh_TW\\StableDiffusion.json'
     if stable_diffusion_file in json_files:
         json_files.remove(stable_diffusion_file)
         json_files.insert(0, stable_diffusion_file)
-    print(json_files)
     # Merge all JSON files
     merged = defaultdict(lambda: defaultdict(str))
     duplicate_keys = defaultdict(list)
@@ -40,25 +38,22 @@ def merge_json_files():
                     merged[key] = data[key]
 
     # Write merged JSON file
-    with open(merged_file, 'w', encoding='utf-8') as f:
+    with open(MERGED_FILE, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=4)
 
-    # Write report file
-    with open(report_file, 'w', encoding='utf-8') as f:
-        if len(duplicate_keys) > 0:
-            f.write('Duplicate keys found in these files: \n')
-            for key, files in duplicate_keys.items():
-                f.write(f'\n"{key}"\n')
-                for file in files:
-                    f.write(f'"{file}" - ')
-                    # Get the value for the key in the file
-                    with open(file, 'r', encoding='utf-8') as f2:
-                        data = json.load(f2)
-                        value = data.get(key)
-                    # Write the value for the key in the file
-                    f.write(f'"{value}".\n')
-        else:
-            f.write('Duplicate keys not found.')
+    # Print report
+    if len(duplicate_keys) > 0:
+        print('\n#####################\nDuplicate keys found.\n#####################')
+        for key, files in duplicate_keys.items():
+            print(f'\n"{key}" duplicate in these files:')
+            for file in files:
+                # Get the value for the key in the file
+                with open(file, 'r', encoding='utf-8') as f2:
+                    data = json.load(f2)
+                    value = data.get(key)
+                print(f'"{value}" in "{file}"')
+    else:
+        print('Duplicate keys not found.')
 
 
 def merge_dict(dict1, dict2, duplicate_keys, file):
