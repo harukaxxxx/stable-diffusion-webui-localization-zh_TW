@@ -76,13 +76,13 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: README.md
-          path: README.md
+          path: .
 
       - name: download zh_TW.json
         uses: actions/download-artifact@v3
         with:
           name: zh_TW.json
-          path: localizations/zh_TW.json
+          path: localizations
 
       - name: configure git
         run: |
@@ -119,13 +119,13 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: README.md
-          path: README.md
+          path: .
 
       - name: download zh_TW.json
         uses: actions/download-artifact@v3
         with:
           name: zh_TW.json
-          path: localizations/zh_TW.json
+          path: localizations
 
       - name: configure git
         run: |
