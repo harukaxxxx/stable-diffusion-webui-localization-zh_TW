@@ -14,7 +14,7 @@ def merge_json_files():
     json_files = glob.glob(os.path.join(JSON_FOLDER, '*.json'))
     if os.path.exists(EXTENSIONS_FOLDER):
         json_files += glob.glob(os.path.join(EXTENSIONS_FOLDER, '*.json'))
-    # print(json_files)
+
     # Put StableDiffusion.json as the first element in the list
     stable_diffusion_file = './template/zh_TW\\StableDiffusion.json'
     if stable_diffusion_file in json_files:
@@ -38,8 +38,8 @@ def merge_json_files():
                     merged[key] = data[key]
 
     # Write merged JSON file
-    with open(MERGED_FILE, 'w', encoding='utf-8') as f:
-        json.dump(merged, f, ensure_ascii=False, indent=4)
+    with open(MERGED_FILE, 'w', encoding='utf-8') as json_file:
+        json.dump(merged, json_file, ensure_ascii=False, indent=4)
 
     # Print report
     if len(duplicate_keys) > 0:
@@ -48,8 +48,8 @@ def merge_json_files():
             print(f'\n"{key}" duplicate in these files:')
             for file in files:
                 # Get the value for the key in the file
-                with open(file, 'r', encoding='utf-8') as f2:
-                    data = json.load(f2)
+                with open(file, 'r', encoding='utf-8') as json_data:
+                    data = json.load(json_data)
                     value = data.get(key)
                 print(f'"{value}" in "{file}"')
     else:
