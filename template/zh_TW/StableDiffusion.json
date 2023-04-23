@@ -1,7 +1,7 @@
 {
   "Loading...": "載入中…",
   "Use via API": "使用API",
-  "Built with Gradio": "使用Gradio構建",
+  "Built with Gradio": "使用 Gradio 構建",
   "Stable Diffusion checkpoint": "Stable Diffusion 模型權重存檔點",
   "txt2img": "文生圖",
   "img2img": "圖生圖",
