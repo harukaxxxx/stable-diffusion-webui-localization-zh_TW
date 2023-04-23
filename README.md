@@ -1,10 +1,10 @@
 # stable-diffusion-webui-localization-zh_TW
 
-正體中文翻譯擴充功能，應用於 AUTOMATIC1111 的 [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
+![translation progress badge](https://img.shields.io/badge/dynamic/json?color=green&label=正體中文&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-13011757-570269.json)
+
+正體中文本地化擴充功能，應用於 AUTOMATIC1111 的 [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
 
 > 推薦搭配 [Bilingual Localization（雙語翻譯對照）](https://github.com/journey-ad/sd-webui-bilingual-localization) 一起使用。
-
-![translation progress badge](https://img.shields.io/badge/dynamic/json?color=green&label=正體中文&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-13011757-570269.json)
 
 ![image](https://user-images.githubusercontent.com/5777085/227784005-1448d6c3-0183-49b1-abd4-59ed442deb66.png)
 
@@ -103,7 +103,7 @@
 
 # 安裝更新
 
-依照以下步驟更新正體中文在地化語言包，推薦不定期檢查更新。
+依照以下步驟更新正體中文本地化語言包，推薦不定期檢查更新。
 
 1. 點選 `擴充功能` 頁籤，然後點選 `已安裝` 頁籤
 2. 點選 `檢查更新` 按鈕，等待檢查更新跑完
@@ -139,4 +139,4 @@
 
 ## 譯文合併
 
-在 Crowdin 上完成的翻譯內容每一個小時會自動更新一次並推送至 `translations` 分支，Github actions 在每日 `00:00` 以及 `12:00` (UTC+08:00) 會自動合併 Crowdin 的 PR 並將翻譯內容合併後推送至從 `main` 分支。
+在 Crowdin 上完成的翻譯內容每六個小時會自動更新一次並推送至 `translations` 分支，Github actions 收到推送會自動將翻譯內容合併並推送至從 `main` 分支。
