@@ -8,7 +8,7 @@
   "Original frames folder": "Original frames folder",
   "Generated frames folder": "Generated frames folder",
   "Output folder": "Output folder",
-  "Info": "Info",
+  "Info": "資訊",
   "The new algorithm will adapt to DFI tolerance to choose the parameters for each frame. IMPORTANT: The algorithm is optimized to maintain a balance between deflicking and corruption, so that it is easier to use StableDiffusion at low denoising to reconstruct lost detail while preserving the stability gained.": "The new algorithm will adapt to DFI tolerance to choose the parameters for each frame. IMPORTANT: The algorithm is optimized to maintain a balance between deflicking and corruption, so that it is easier to use StableDiffusion at low denoising to reconstruct lost detail while preserving the stability gained.",
   "Source denoise:": "Source denoise:",
   "A noisy source can interfere with the accuracy of the scan. This will reduce noise, but also detail. However, this does not affect the original, and sometimes flatter images are not bad for the process, although you may need to balance by reducing the DFI tolerance.": "A noisy source can interfere with the accuracy of the scan. This will reduce noise, but also detail. However, this does not affect the original, and sometimes flatter images are not bad for the process, although you may need to balance by reducing the DFI tolerance.",
