@@ -1,15 +1,16 @@
 {
   "Remove background": "移除背景",
-  "u2net": "u2net",
-  "u2netp": "u2netp",
-  "u2net_human_seg": "u2net_human_seg",
-  "u2net_cloth_seg": "u2net_cloth_seg",
-  "silueta": "silueta",
   "Return mask": "Return mask",
   "Alpha matting": "Alpha matting",
   "Erode size": "Erode size",
   "Foreground threshold": "Foreground threshold",
   "Background threshold": "Background threshold",
   "stable-diffusion-webui-rembg": "stable-diffusion-webui-rembg",
-  "https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git"
+  "https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git",
+  "64821f04 (Sun Mar 12 15:32:00 2023)": "64821f04 (Sun Mar 12 15:32:00 2023)",
+  "u2net": "u2net",
+  "u2netp": "u2netp",
+  "u2net_human_seg": "u2net_human_seg",
+  "u2net_cloth_seg": "u2net_cloth_seg",
+  "silueta": "silueta"
 }
