@@ -40,7 +40,7 @@
 - [x] ![sd-webui-additional-networks translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
 - [x] ![sd-webui-aspect-ratio-helper translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [x] ![sd-webui-bilingual-localization translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-bilingual-localization](https://github.com/journey-ad/sd-webui-bilingual-localization)
-- [ ] ![sd-webui-controlnet translated 55%](https://geps.dev/progress/55?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-controlnet]()
+- [ ] ![sd-webui-controlnet translated 99%](https://geps.dev/progress/99?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-controlnet]()
 - [ ] ![sd-webui-cutoff translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-cutoff]()
 - [x] ![sd-webui-depth-lib translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib)
 - [ ] ![sd-webui-llul translated 25%](https://geps.dev/progress/25?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-llul](https://github.com/hnmr293/sd-webui-llul)
