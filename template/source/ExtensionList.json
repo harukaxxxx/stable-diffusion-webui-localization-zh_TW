@@ -38,7 +38,7 @@
   "Image browser": "Image browser",
   "Provides an interface to browse created images in the web browser.": "Provides an interface to browse created images in the web browser.",
   "Infinite image browsing": "Infinite image browsing",
-  "A fast image browser that allows you to browse all images without paging, with a layout similar to VS Code, and optional transfer with Baidu netdisk.": "A fast image browser that allows you to browse all images without paging, with a layout similar to VS Code, and optional transfer with Baidu netdisk.",
+  "A fast image browser that allows browsing all images without paging, and supports joint search using image parameters, with a layout similar to VS Code.": "A fast image browser that allows browsing all images without paging, and supports joint search using image parameters, with a layout similar to VS Code.",
   "Inspiration": "Inspiration",
   "Randomly display the pictures of the artist's or artistic genres typical style, more pictures of this artist or genre is displayed after selecting. So you don't have to worry about how hard it is to choose the right style of art when you create.": "Randomly display the pictures of the artist's or artistic genres typical style, more pictures of this artist or genre is displayed after selecting. So you don't have to worry about how hard it is to choose the right style of art when you create.",
   "Artists to study": "Artists to study",

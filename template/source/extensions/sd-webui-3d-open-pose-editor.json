@@ -1,0 +1,16 @@
+{
+  "3D Openpose": "3D Openpose",
+  "Edit Openpose": "Edit Openpose",
+  "Send to ControlNet": "Send to ControlNet",
+  "Original:": "Original:",
+  "Online 3D Openpose Editor": "Online 3D Openpose Editor",
+  "Pose": "Pose",
+  "Control Model number": "Control Model number",
+  "Download": "Download",
+  "Depth": "Depth",
+  "Canny": "Canny",
+  "3D Openpose Editor": "3D Openpose Editor",
+  "Use online version": "Use online version",
+  "sd-webui-3d-open-pose-editor": "sd-webui-3d-open-pose-editor",
+  "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor.git": "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor.git"
+}
