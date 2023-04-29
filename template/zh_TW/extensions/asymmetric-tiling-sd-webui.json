@@ -1,0 +1,10 @@
+{
+  "Asymmetric tiling": "Asymmetric tiling",
+  "asymmetric-tiling-sd-webui": "asymmetric-tiling-sd-webui",
+  "https://github.com/tjm35/asymmetric-tiling-sd-webui.git": "https://github.com/tjm35/asymmetric-tiling-sd-webui.git",
+  "Active": "Active",
+  "Tile X": "Tile X",
+  "Tile Y": "Tile Y",
+  "Start tiling from step N": "Start tiling from step N",
+  "Stop tiling after step N (-1: Don't stop)": "Stop tiling after step N (-1: Don't stop)"
+}
