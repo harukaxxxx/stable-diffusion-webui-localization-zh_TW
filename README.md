@@ -84,6 +84,7 @@
 - [ ] ![sd-webui-3d-open-pose-editor translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-3d-open-pose-editor](https://github.com/nonnonstop/sd-webui-3d-open-pose-editor)
 - [ ] ![sd-webui-supermerger translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-supermerger]()
 - [ ] ![stable-diffusion-webui-prompt-travel translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-prompt-travel]()
+- [ ] ![infinite-zoom-automatic1111-webui translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [infinite-zoom-automatic1111-webui]()
 </details>
 
 # 安裝說明
