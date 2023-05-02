@@ -14,7 +14,7 @@
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
 - [ ] ![ExtensionList translated 87%](https://geps.dev/progress/87?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
-- [x] ![StableDiffusion translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ ] ![StableDiffusion translated 92%](https://geps.dev/progress/92?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 </details>
 
 <details>
@@ -85,6 +85,9 @@
 - [ ] ![sd-webui-supermerger translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-supermerger]()
 - [ ] ![stable-diffusion-webui-prompt-travel translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-prompt-travel]()
 - [ ] ![infinite-zoom-automatic1111-webui translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [infinite-zoom-automatic1111-webui]()
+- [ ] ![a1111-sd-webui-lycoris translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [a1111-sd-webui-lycoris]()
+- [ ] ![ebsynth_utility translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ebsynth_utility]()
+- [ ] ![sd-canvas-editor translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-canvas-editor]()
 </details>
 
 # 安裝說明
