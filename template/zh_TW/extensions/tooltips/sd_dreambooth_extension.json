@@ -172,7 +172,7 @@
     "tooltip": "在進行反向傳播/更新之前累積的更新步驟數前。您應該嘗試將其設定為與您的批次大小相同。"
   },
   "Gradient Checkpointing": {
-    "key": "梯度進度記錄 - 以時間換顯存",
+    "key": "梯度進度記錄",
     "tooltip": "這是一種通過清除某些層的激活並在向後傳遞期間重新計算它們來減少內存使用量的技術。實際上，這會以額外的計算時間來換取減少的內存使用量。"
   },
   "Graph Smoothing Steps": {
@@ -253,7 +253,7 @@
   },
   "Max Token Length": {
     "key": "最大標記長度",
-    "tooltip": "要讀取的最大提詞長度。您可能希望將其設定為 75。"
+    "tooltip": "要讀取的最大標記長度。您可能希望將其設定為 75。"
   },
   "Memory Attention": {
     "key": "記憶體注意力",
@@ -328,15 +328,15 @@
     "tooltip": "生成預覽圖像時要使用的提示。"
   },
   "Sample Negative Prompt": {
-    "key": "樣本反向提詞",
-    "tooltip": "生成預覽圖像時要使用的反向提詞。"
+    "key": "樣本反向提示詞",
+    "tooltip": "生成預覽圖像時要使用的反向提示詞。"
   },
   "Sample Prompt Template File": {
     "key": "樣本提示詞範本檔案",
     "tooltip": "用於樣本提示的txt文件的路徑。使用 [filewords] 或 [name] 在樣本提示中插入分類標記。"
   },
   "Sample Prompt": {
-    "key": "樣本提詞",
+    "key": "樣本提示詞",
     "tooltip": "產生樣本圖像時要使用的提示。"
   },
   "Sample Seed": {
@@ -413,7 +413,7 @@
   },
   "Set Gradients to None When Zeroing": {
     "key": "將梯度設定為 0 的時候設定為無",
-    "tooltip": "在進行反向傳遞時，梯度將設定為無，而不是建立一個新的空張量。這將稍微提高 VRAM。"
+    "tooltip": "在進行反向傳遞時，梯度將設定為無，而不是建立一個新的空張量。這將稍微改善 VRAM。"
   },
   "Shuffle After Epoch": {
     "key": "訓練週期後隨機排序",
@@ -432,7 +432,7 @@
     "tooltip": "每個圖像（訓練週期）訓練文字編碼器的步數。將 0.5 設定為 50% 的 epoch。"
   },
   "Strict Tokens": {
-    "key": "嚴格的提詞",
+    "key": "嚴格的標記",
     "tooltip": "將以以下字符 [,;.!?] 分隔的實例提示解析，並在使用分詞器時防止拆分標記。如果您的提示被很多標記分隔，這將非常有用。"
   },
   "Total Number of Class/Reg Images": {
