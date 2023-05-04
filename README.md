@@ -88,6 +88,10 @@
 - [ ] ![a1111-sd-webui-lycoris translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [a1111-sd-webui-lycoris]()
 - [ ] ![ebsynth_utility translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ebsynth_utility]()
 - [ ] ![sd-canvas-editor translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-canvas-editor]()
+- [ ] ![mine-diffusion translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [mine-diffusion]()
+- [ ] ![sd-discord-rich_presence translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-discord-rich_presence]()
+- [ ] ![sd-extension-system-info translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-extension-system-info]()
+- [ ] ![sd_save_intermediate_images translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_save_intermediate_images]()
 </details>
 
 # 安裝說明
