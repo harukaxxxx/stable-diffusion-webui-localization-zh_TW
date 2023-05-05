@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from crowdin_api import CrowdinClient
 
 # setup variables
@@ -35,16 +36,24 @@ def crowndin(file_scope):
             with open(file_path, 'r', encoding='utf-8') as json_file:
                 data = json.load(json_file)
 
-                # find key contains '.git' convert to url
+                # find key contains 'http' and convert to url
+                url_pattern = re.compile(r"https://github.com/([^/\s]+)/([^/\s]+)")
+                extension_url = ''
                 for key in data.keys():
-                    if '.git' in key:
-                        extension_url = key.replace('.git', '')
-                    elif file_name == 'StableDiffusion':
+                    if file_name == 'StableDiffusion':
                         extension_url = 'https://github.com/AUTOMATIC1111/stable-diffusion-webui'
                     elif file_name == 'ExtensionList':
                         extension_url = 'https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md'
-                    else:
-                        extension_url = ''
+
+                    if 'https' in key:
+                        matches = re.findall(url_pattern, key)
+                        for match in matches:
+                            username, repository = match
+                            if '.git' in repository:
+                                repository = repository.replace('.git', '')
+                            file_repo = file_name.replace('.json', '')
+                            if file_repo == repository:
+                                extension_url = f"https://github.com/{username}/{repository}"
         else:
             print(f"url not found at '{file_path}'")
 
