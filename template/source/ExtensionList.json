@@ -121,6 +121,8 @@
   "Create masks for img2img based on a depth estimation made by MiDaS.": "Create masks for img2img based on a depth estimation made by MiDaS.",
   "ABG_extension": "ABG_extension",
   "Automatically remove backgrounds. Uses an onnx model fine-tuned for anime images. Runs on GPU.": "Automatically remove backgrounds. Uses an onnx model fine-tuned for anime images. Runs on GPU.",
+  "Pixel": "Pixel",
+  "Quickly and easily perform downscaling, color palette limiting, and other useful pixel art effects through the extras tab.": "Quickly and easily perform downscaling, color palette limiting, and other useful pixel art effects through the extras tab.",
   "Pixelization": "Pixelization",
   "Using pre-trained models, produce pixel art out of images in the extras tab.": "Using pre-trained models, produce pixel art out of images in the extras tab.",
   "haku-img": "haku-img",
