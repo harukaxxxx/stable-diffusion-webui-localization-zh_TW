@@ -279,5 +279,7 @@
   "zh_Hans Localization": "zh_Hans Localization",
   "Simplified Chinese localization.": "Simplified Chinese localization.",
   "old localizations": "old localizations",
-  "Old unmaintained localizations that used to be a part of main repository": "Old unmaintained localizations that used to be a part of main repository"
+  "Old unmaintained localizations that used to be a part of main repository": "Old unmaintained localizations that used to be a part of main repository",
+  "SD-CN-Animation": "SD-CN-Animation",
+  "Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed.": "Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed."
 }
