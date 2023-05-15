@@ -13,7 +13,7 @@
 <details>
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
-- [ ] ![ExtensionList translated 81%](https://geps.dev/progress/81?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
+- [ ] ![ExtensionList translated 79%](https://geps.dev/progress/79?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
 - [ ] ![StableDiffusion translated 92%](https://geps.dev/progress/92?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 </details>
 
@@ -92,6 +92,9 @@
 - [x] ![sd-discord-rich_presence translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-discord-rich_presence](https://github.com/davehornik/sd-discord-rich_presence)
 - [ ] ![sd-extension-system-info translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-extension-system-info](https://github.com/vladmandic/sd-extension-system-info)
 - [ ] ![sd_save_intermediate_images translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_save_intermediate_images](https://github.com/AlUlkesh/sd_save_intermediate_images)
+- [ ] ![OneButtonPrompt translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [OneButtonPrompt](https://github.com/AIrjen/OneButtonPrompt)
+- [ ] ![sd-model-organizer translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-model-organizer](https://github.com/alexandersokol/sd-model-organizer)
+- [ ] ![weight_gradient translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [weight_gradient](https://github.com/DingoBite/weight_gradient)
 </details>
 
 # 安裝說明
