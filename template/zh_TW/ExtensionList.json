@@ -288,8 +288,12 @@
   "A Multipurpose toolkit for pruning, editing and fixing models.": "A Multipurpose toolkit for pruning, editing and fixing models.",
   "sd-webui-prompt-all-in-one": "sd-webui-prompt-all-in-one",
   "Improve the user experience of the prompt/negative prompt input box. It has a more intuitive and powerful input interface that offers features such as automatic translation, history records, and favorites.": "Improve the user experience of the prompt/negative prompt input box. It has a more intuitive and powerful input interface that offers features such as automatic translation, history records, and favorites.",
+  "sd-model-preview-xd": "sd-model-preview-xd",
+  "Adds model, LoRA and embedding previews to the UI including preview images, descriptions and LoRA prompt lists.": "Adds model, LoRA and embedding previews to the UI including preview images, descriptions and LoRA prompt lists.",
   "!After Detailer": "!After Detailer",
   "Automatic detection, masking and inpainting tool for details": "Automatic detection, masking and inpainting tool for details",
   "Weight Gradient": "Weight Gradient",
-  "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.": "Allows you to dynamically change the weights of tokens during generation. Useful in morphing."
+  "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.": "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.",
+  "One Button Prompt": "One Button Prompt",
+  "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you.": "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you."
 }
