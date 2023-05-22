@@ -251,7 +251,7 @@
   "Infinite Zoom": "Infinite Zoom",
   "allows users to create infinite zoom effect videos using stable diffusion outpainting method.": "allows users to create infinite zoom effect videos using stable diffusion outpainting method.",
   "Eye Mask": "Eye Mask",
-  "Marks eyes or faces in an image.": "Marks eyes or faces in an image.",
+  "Puts an end to poorly drawn eyes by automatically identifying and redrawing them.": "Puts an end to poorly drawn eyes by automatically identifying and redrawing them.",
   "zh_CN Localization": "zh_CN Localization",
   "Simplified Chinese localization, recommend using with Bilingual Localization.": "Simplified Chinese localization, recommend using with Bilingual Localization.",
   "zh_TW Localization": "zh_TW Localization",
@@ -302,6 +302,8 @@
   "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.": "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.",
   "One Button Prompt": "One Button Prompt",
   "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you.": "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you.",
+  "Miaoshouai Assistant": "Miaoshouai Assistant",
+  "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, managing and downloading your models, prompts from a single tab.": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, managing and downloading your models, prompts from a single tab.",
   "miniPaint": "miniPaint",
   "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!": "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!"
 }
