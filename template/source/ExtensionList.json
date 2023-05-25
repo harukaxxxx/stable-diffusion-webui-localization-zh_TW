@@ -307,5 +307,9 @@
   "miniPaint": "miniPaint",
   "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!": "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!",
   "StableSR": "StableSR",
-  "WebUI extension for StableSR - a powerful upscaler for both realistic and anime images": "WebUI extension for StableSR - a powerful upscaler for both realistic and anime images"
+  "WebUI extension for StableSR - a powerful upscaler for both realistic and anime images": "WebUI extension for StableSR - a powerful upscaler for both realistic and anime images",
+  "Web UI client queue": "Web UI client queue",
+  "Adds a queue function to the web ui that processes a set of settings one or more times, it can then load a different set of settings and so on.": "Adds a queue function to the web ui that processes a set of settings one or more times, it can then load a different set of settings and so on.",
+  "Distributed": "Distributed",
+  "Generate batches more quickly by chaining together separate webui instances": "Generate batches more quickly by chaining together separate webui instances"
 }
