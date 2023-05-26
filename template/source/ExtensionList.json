@@ -311,5 +311,7 @@
   "Web UI client queue": "Web UI client queue",
   "Adds a queue function to the web ui that processes a set of settings one or more times, it can then load a different set of settings and so on.": "Adds a queue function to the web ui that processes a set of settings one or more times, it can then load a different set of settings and so on.",
   "Distributed": "Distributed",
-  "Generate batches more quickly by chaining together separate webui instances": "Generate batches more quickly by chaining together separate webui instances"
+  "Generate batches more quickly by chaining together separate webui instances": "Generate batches more quickly by chaining together separate webui instances",
+  "StableStudio Adapter": "StableStudio Adapter",
+  "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.": "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio."
 }
