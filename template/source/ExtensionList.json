@@ -139,6 +139,8 @@
   "More advanced options for SD Upscale, less artifacts than original using higher denoise ratio (0.3-0.5).": "More advanced options for SD Upscale, less artifacts than original using higher denoise ratio (0.3-0.5).",
   "Prompt Fusion": "Prompt Fusion",
   "Adds prompt-travel and shift-attention-like interpolations (see exts), but during/within the sampling steps. Always-on + works w/ existing prompt-editing syntax. Various interpolation modes. See their wiki for more info.": "Adds prompt-travel and shift-attention-like interpolations (see exts), but during/within the sampling steps. Always-on + works w/ existing prompt-editing syntax. Various interpolation modes. See their wiki for more info.",
+  "Neutral Prompt": "Neutral Prompt",
+  "Adds new keywords for manipulating noise blending and prompt interactions. Allows for organizing prompts in a hierarchical manner instead of a flat list.": "Adds new keywords for manipulating noise blending and prompt interactions. Allows for organizing prompts in a hierarchical manner instead of a flat list.",
   "Dynamic Thresholding": "Dynamic Thresholding",
   "Adds customizable dynamic thresholding to allow high CFG Scale values without the burning / 'pop art' effect.": "Adds customizable dynamic thresholding to allow high CFG Scale values without the burning / 'pop art' effect.",
   "anti-burn": "anti-burn",
@@ -313,5 +315,7 @@
   "Distributed": "Distributed",
   "Generate batches more quickly by chaining together separate webui instances": "Generate batches more quickly by chaining together separate webui instances",
   "StableStudio Adapter": "StableStudio Adapter",
-  "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.": "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio."
+  "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.": "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.",
+  "Quick Tab Switch": "Quick Tab Switch",
+  "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!": "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!"
 }
