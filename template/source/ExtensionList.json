@@ -1,4 +1,6 @@
 {
+  "Stable Diffusion AWS Extension": "Stable Diffusion AWS Extension",
+  "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS": "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS",
   "Aesthetic Gradients": "Aesthetic Gradients",
   "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.": "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.",
   "Dreambooth": "Dreambooth",
