@@ -319,5 +319,7 @@
   "StableStudio Adapter": "StableStudio Adapter",
   "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.": "A custom extension for webui to extend rest APIs to do some local operations, using in StableStudio.",
   "Quick Tab Switch": "Quick Tab Switch",
-  "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!": "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!"
+  "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!": "Simple tab switcher for Stable Diffusion WebUI. From now on, no matter how many tabs you add, no more finding for them by yourself!",
+  "Lua": "Lua",
+  "Generate images with Lua scripts in Stable Diffusion webui.": "Generate images with Lua scripts in Stable Diffusion webui."
 }
