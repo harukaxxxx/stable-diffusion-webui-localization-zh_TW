@@ -1,4 +1,6 @@
 {
+  "sd-webui-segment-anything": "sd-webui-segment-anything",
+  "Segment Anything for Stable Diffusion WebUI. Automatically generate high-quality segmentations/masks for images by clicking or text prompting. Aim for connecting WebUI and ControlNet with Segment Anything and GroundingDINO to enhance Stable Diffusion/ControlNet inpainting (both single image and batch process), enhance ControlNet semantic segmentation, automate image matting and create LoRA/LyCORIS training set.": "Segment Anything for Stable Diffusion WebUI. Automatically generate high-quality segmentations/masks for images by clicking or text prompting. Aim for connecting WebUI and ControlNet with Segment Anything and GroundingDINO to enhance Stable Diffusion/ControlNet inpainting (both single image and batch process), enhance ControlNet semantic segmentation, automate image matting and create LoRA/LyCORIS training set.",
   "Stable Diffusion AWS Extension": "Stable Diffusion AWS Extension",
   "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS": "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS",
   "Aesthetic Gradients": "美學梯度",
