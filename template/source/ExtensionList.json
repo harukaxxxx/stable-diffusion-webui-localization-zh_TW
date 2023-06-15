@@ -1,4 +1,6 @@
 {
+  "Kandinsky": "Kandinsky",
+  "Adds a script to run Kandinsky 2.1": "Adds a script to run Kandinsky 2.1",
   "Txt/Img to 3D Model": "Txt/Img to 3D Model",
   "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image": "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image",
   "sd-webui-openpose-editor": "sd-webui-openpose-editor",
@@ -339,5 +341,7 @@
   "QR Code Generator": "QR Code Generator",
   "Create QR Codes for ControlNet.": "Create QR Codes for ControlNet.",
   "sd-webui-faceswap": "sd-webui-faceswap",
-  "Enable face swapping with reference image.": "Enable face swapping with reference image."
+  "Enable face swapping with reference image.": "Enable face swapping with reference image.",
+  "sd-webui-bluescape": "sd-webui-bluescape",
+  "Upload generated images to a Bluescape workspace for review and collaboration.": "Upload generated images to a Bluescape workspace for review and collaboration."
 }
