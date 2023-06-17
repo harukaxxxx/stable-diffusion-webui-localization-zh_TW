@@ -167,6 +167,8 @@
   "This SD extension allows you to turn posts from various image boorus into stable diffusion prompts. It does so by pulling a list of tags down from their API. You can copy-paste in a link to the post you want yourself, or use the built-in search feature to do it all without leaving SD.": "This SD extension allows you to turn posts from various image boorus into stable diffusion prompts. It does so by pulling a list of tags down from their API. You can copy-paste in a link to the post you want yourself, or use the built-in search feature to do it all without leaving SD.",
   "Gelbooru Prompt": "Gelbooru Prompt",
   "Extension that gets tags for saved gelbooru images in AUTOMATIC1111's Stable Diffusion webui": "Extension that gets tags for saved gelbooru images in AUTOMATIC1111's Stable Diffusion webui",
+  "e621 Prompt": "e621 Prompt",
+  "Request tags of an image from e621 and convert them into a prompt": "Request tags of an image from e621 and convert them into a prompt",
   "NSFW checker": "NSFW checker",
   "Replaces NSFW images with black.": "Replaces NSFW images with black.",
   "Diffusion Defender": "Diffusion Defender",
