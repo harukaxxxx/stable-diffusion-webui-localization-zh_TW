@@ -95,6 +95,7 @@
 - [ ] ![OneButtonPrompt translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [OneButtonPrompt](https://github.com/AIrjen/OneButtonPrompt)
 - [ ] ![sd-model-organizer translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-model-organizer](https://github.com/alexandersokol/sd-model-organizer)
 - [ ] ![weight_gradient translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [weight_gradient](https://github.com/DingoBite/weight_gradient)
+- [ ] ![stable-diffusion-webui-composable-lora translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-composable-lora](https://github.com/a2569875/stable-diffusion-webui-composable-lora)
 </details>
 
 # 安裝說明
