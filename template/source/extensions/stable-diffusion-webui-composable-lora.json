@@ -8,5 +8,6 @@
   "Use Lora in uc text model encoder": "Use Lora in uc text model encoder",
   "Use Lora in uc diffusion model": "Use Lora in uc diffusion model",
   "Plot the LoRA weight in all steps": "Plot the LoRA weight in all steps",
-  "Don't use LoRA in uc if there're no subprompts": "Don't use LoRA in uc if there're no subprompts"
+  "Don't use LoRA in uc if there're no subprompts": "Don't use LoRA in uc if there're no subprompts",
+  "Error! Composable Lora install failed! Please reinstall composable_lora and restart the WebUI.": "Error! Composable Lora install failed! Please reinstall composable_lora and restart the WebUI."
 }
