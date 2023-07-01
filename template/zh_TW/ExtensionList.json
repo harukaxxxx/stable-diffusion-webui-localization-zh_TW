@@ -363,5 +363,13 @@
   "Pixel art": "Pixel art",
   "Extension that provides basic functionality for pixel art: downscaling, palette limiting, grayscale, black&white, ability to change image colors with custom color palette": "Extension that provides basic functionality for pixel art: downscaling, palette limiting, grayscale, black&white, ability to change image colors with custom color palette",
   "Lobe Theme": "Lobe Theme",
-  "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.": "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme."
+  "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.": "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.",
+  "IF_prompt_MKR": "IF_prompt_MKR",
+  "Creates prompts using a local LlMs via Oobabooga text webUI API": "Creates prompts using a local LlMs via Oobabooga text webUI API",
+  "3D Editor": "3D Editor",
+  "3D modeling features (add/edit basic elements, load your custom model, modify scene and so on), then send screenshot to txt2img or img2img as your ControlNet's reference image, basing on ThreeJS editor.": "3D modeling features (add/edit basic elements, load your custom model, modify scene and so on), then send screenshot to txt2img or img2img as your ControlNet's reference image, basing on ThreeJS editor.",
+  "Aspect Ratio selector plus": "Aspect Ratio selector plus",
+  "Fork of Aspect Ratio selector with new features and logic for aspect ratio": "Fork of Aspect Ratio selector with new features and logic for aspect ratio",
+  "SD Delete Button": "SD Delete Button",
+  "Add a delete button for txt2img and img2img using Send2Trash": "Add a delete button for txt2img and img2img using Send2Trash"
 }
