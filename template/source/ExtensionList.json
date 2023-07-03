@@ -371,5 +371,7 @@
   "Aspect Ratio selector plus": "Aspect Ratio selector plus",
   "Fork of Aspect Ratio selector with new features and logic for aspect ratio": "Fork of Aspect Ratio selector with new features and logic for aspect ratio",
   "SD Delete Button": "SD Delete Button",
-  "Add a delete button for txt2img and img2img using Send2Trash": "Add a delete button for txt2img and img2img using Send2Trash"
+  "Add a delete button for txt2img and img2img using Send2Trash": "Add a delete button for txt2img and img2img using Send2Trash",
+  "sd-webui-qrcode-toolkit": "sd-webui-qrcode-toolkit",
+  "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.": "Integration with Anthony's QR Toolkit for easy QR Code generation and verification."
 }
