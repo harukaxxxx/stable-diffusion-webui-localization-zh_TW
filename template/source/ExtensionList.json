@@ -373,5 +373,9 @@
   "SD Delete Button": "SD Delete Button",
   "Add a delete button for txt2img and img2img using Send2Trash": "Add a delete button for txt2img and img2img using Send2Trash",
   "sd-webui-qrcode-toolkit": "sd-webui-qrcode-toolkit",
-  "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.": "Integration with Anthony's QR Toolkit for easy QR Code generation and verification."
+  "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.": "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.",
+  "SadTalker": "SadTalker",
+  "Generating talking head videos with facial image and speech audio": "Generating talking head videos with facial image and speech audio",
+  "Auto-Photoshop-StableDiffusion-Plugin": "Auto-Photoshop-StableDiffusion-Plugin",
+  "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin": "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin"
 }
