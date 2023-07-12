@@ -27,8 +27,6 @@
   "Feature-rich UI tab that allows image viewing, search-filtering and editing.": "Feature-rich UI tab that allows image viewing, search-filtering and editing.",
   "DreamArtist": "DreamArtist",
   "Towards Controllable One-Shot Text-to-Image Generation via Contrastive Prompt-Tuning.": "Towards Controllable One-Shot Text-to-Image Generation via Contrastive Prompt-Tuning.",
-  "WD 1.4 Tagger": "WD 1.4 Tagger",
-  "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
   "Hypernetwork-Monkeypatch-Extension": "Hypernetwork-Monkeypatch-Extension",
   "Extension that provides additional training features for hypernetwork training. Also supports using multiple hypernetworks for inference.": "Extension that provides additional training features for hypernetwork training. Also supports using multiple hypernetworks for inference.",
   "Custom Diffusion": "Custom Diffusion",
@@ -379,5 +377,11 @@
   "Auto-Photoshop-StableDiffusion-Plugin": "Auto-Photoshop-StableDiffusion-Plugin",
   "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin": "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin",
   "Civitai Shortcut": "Civitai Shortcut",
-  "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.": "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed."
+  "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.": "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.",
+  "WD 1.4 Tagger": "WD 1.4 Tagger",
+  "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
+  "Loopback Scaler": "Loopback Scaler",
+  "Iteratively improves image quality and detail via user-controlled, gradual resolution increments.": "Iteratively improves image quality and detail via user-controlled, gradual resolution increments.",
+  "Mask2Background": "Mask2Background",
+  "Take a png image, generate a background and mask, then send it to img2img to generate a new backgrou": "Take a png image, generate a background and mask, then send it to img2img to generate a new backgrou"
 }
