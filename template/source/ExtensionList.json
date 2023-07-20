@@ -393,5 +393,7 @@
   "Shutdown button": "Shutdown button",
   "Adds a button in quick settings for killing webui": "Adds a button in quick settings for killing webui",
   "Latent Upscale": "Latent Upscale",
-  "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.": "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process."
+  "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.": "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.",
+  "sd-history-slider": "sd-history-slider",
+  "A slider change the prompt based on the history of what was used.": "A slider change the prompt based on the history of what was used."
 }
