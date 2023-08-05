@@ -413,5 +413,9 @@
   "Custom Hires Fix": "Custom Hires Fix",
   "Adds custom hires fix with advanced features to improve details.": "Adds custom hires fix with advanced features to improve details.",
   "Refiner": "Refiner",
-  "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet.": "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet."
+  "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet.": "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet.",
+  "sd-webui-deoldify": "sd-webui-deoldify",
+  "DeOldify for Stable Diffusion WebUI:Colorize of old photos, based on deoldify": "DeOldify for Stable Diffusion WebUI:Colorize of old photos, based on deoldify",
+  "sd-wav2lip-uhq": "sd-wav2lip-uhq",
+  "All-in-one solution for creating high-quality lip-sync videos based on video or image": "All-in-one solution for creating high-quality lip-sync videos based on video or image"
 }
