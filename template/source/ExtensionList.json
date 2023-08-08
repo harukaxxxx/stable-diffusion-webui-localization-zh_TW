@@ -415,7 +415,9 @@
   "Refiner": "Refiner",
   "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet.": "Adds support for SD XL refiner models, it's extending the pipeline to process the last steps with the refiner models Unet.",
   "sd-webui-deoldify": "sd-webui-deoldify",
-  "DeOldify for Stable Diffusion WebUI:Colorize of old photos, based on deoldify": "DeOldify for Stable Diffusion WebUI:Colorize of old photos, based on deoldify",
+  "DeOldify for Stable Diffusion WebUI:Colorize of old photos and old video, based on deoldify": "DeOldify for Stable Diffusion WebUI:Colorize of old photos and old video, based on deoldify",
   "sd-wav2lip-uhq": "sd-wav2lip-uhq",
-  "All-in-one solution for creating high-quality lip-sync videos based on video or image": "All-in-one solution for creating high-quality lip-sync videos based on video or image"
+  "All-in-one solution for creating high-quality lip-sync videos based on video or image": "All-in-one solution for creating high-quality lip-sync videos based on video or image",
+  "Controlnet Fastload": "Controlnet Fastload",
+  "Save and load controlnet parameters": "Save and load controlnet parameters"
 }
