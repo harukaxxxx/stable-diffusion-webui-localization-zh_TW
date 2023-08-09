@@ -419,5 +419,7 @@
   "sd-wav2lip-uhq": "sd-wav2lip-uhq",
   "All-in-one solution for creating high-quality lip-sync videos based on video or image": "All-in-one solution for creating high-quality lip-sync videos based on video or image",
   "Controlnet Fastload": "Controlnet Fastload",
-  "Save and load controlnet parameters": "Save and load controlnet parameters"
+  "Save and load controlnet parameters": "Save and load controlnet parameters",
+  "LoRA Control": "LoRA Control",
+  "Dynamically control the weights of LoRAs during image generation": "Dynamically control the weights of LoRAs during image generation"
 }
