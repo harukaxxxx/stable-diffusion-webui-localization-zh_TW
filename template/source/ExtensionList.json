@@ -425,5 +425,7 @@
   "TensorRT support": "TensorRT support",
   "Adds the ability to convert loaded model's Unet module into TensortRT for faster performance. Read README.md additional insulation step required": "Adds the ability to convert loaded model's Unet module into TensortRT for faster performance. Read README.md additional insulation step required",
   "Wildcards": "Wildcards",
-  "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.": "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory."
+  "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.": "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.",
+  "SD Ratio Lock": "SD Ratio Lock",
+  "Locks image aspect ratio": "Locks image aspect ratio"
 }
