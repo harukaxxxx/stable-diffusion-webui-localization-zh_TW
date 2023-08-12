@@ -427,5 +427,7 @@
   "Wildcards": "Wildcards",
   "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.": "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.",
   "SD Ratio Lock": "SD Ratio Lock",
-  "Locks image aspect ratio": "Locks image aspect ratio"
+  "Locks image aspect ratio": "Locks image aspect ratio",
+  "sd-webui-chatgpt": "sd-webui-chatgpt",
+  "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.": "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image."
 }
