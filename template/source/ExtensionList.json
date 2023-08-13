@@ -429,5 +429,9 @@
   "SD Ratio Lock": "SD Ratio Lock",
   "Locks image aspect ratio": "Locks image aspect ratio",
   "sd-webui-chatgpt": "sd-webui-chatgpt",
-  "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.": "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image."
+  "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.": "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.",
+  "sd-webui-auto-tweet.json": "sd-webui-auto-tweet.json",
+  "The generated images are automatically posted to your Twitter feed.": "The generated images are automatically posted to your Twitter feed.",
+  "zh_Hant Localization": "zh_Hant Localization",
+  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "Traditional Chinese localization (mixin zh_TW and zh_Hans)"
 }
