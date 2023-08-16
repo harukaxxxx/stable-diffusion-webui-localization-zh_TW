@@ -433,5 +433,7 @@
   "sd-webui-auto-tweet.json": "sd-webui-auto-tweet.json",
   "The generated images are automatically posted to your Twitter feed. There is also a button to post the generated image to Twitter.": "The generated images are automatically posted to your Twitter feed. There is also a button to post the generated image to Twitter.",
   "zh_Hant Localization": "zh_Hant Localization",
-  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "Traditional Chinese localization (mixin zh_TW and zh_Hans)"
+  "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "Traditional Chinese localization (mixin zh_TW and zh_Hans)",
+  "SD Webui Vectorscope CC": "SD Webui Vectorscope CC",
+  "Adjust the output images brightness contrast saturation through latent noise manipulation during generation": "Adjust the output images brightness contrast saturation through latent noise manipulation during generation"
 }
