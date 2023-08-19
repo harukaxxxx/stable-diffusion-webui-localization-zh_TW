@@ -441,5 +441,7 @@
   "Prompt Format - by Haoming02": "Prompt Format - by Haoming02",
   "Remove duplicated spaces and commas.": "Remove duplicated spaces and commas.",
   "FABRIC": "FABRIC",
-  "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images": "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images"
+  "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images": "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images",
+  "Webpage close confirmation dialogue": "Webpage close confirmation dialogue",
+  "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage"
 }
