@@ -8,7 +8,7 @@
   "Batch Checkpoints and Prompts": "Batch Checkpoints and Prompts",
   "Test a base prompt with different checkpoints and for the checkpoints specific prompt templates ": "Test a base prompt with different checkpoints and for the checkpoints specific prompt templates ",
   "Kandinsky": "Kandinsky",
-  "Adds a script to run Kandinsky 2.1": "Adds a script to run Kandinsky 2.1",
+  "Adds a script to run Kandinsky 2.X": "Adds a script to run Kandinsky 2.X",
   "Txt/Img to 3D Model": "Txt/Img to 3D Model",
   "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image": "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image",
   "sd-webui-openpose-editor": "sd-webui-openpose-editor",
