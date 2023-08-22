@@ -8,7 +8,7 @@
   "Batch Checkpoints and Prompts": "批量檢查點和關鍵字",
   "Test a base prompt with different checkpoints and for the checkpoints specific prompt templates ": "使用不同的檢查點和檢查點特定的提示詞模板測試基本提示詞 ",
   "Kandinsky": "Kandinsky",
-  "Adds a script to run Kandinsky 2.1": "Adds a script to run Kandinsky 2.1",
+  "Adds a script to run Kandinsky 2.X": "Adds a script to run Kandinsky 2.X",
   "Txt/Img to 3D Model": "Txt/Img to 3D Model",
   "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image": "An extension integrated OpenAI Shap-E that allow you to generate 3D model from prompt or image",
   "sd-webui-openpose-editor": "sd-webui-openpose-editor",
@@ -441,5 +441,7 @@
   "Prompt Format - by Haoming02": "Prompt Format - by Haoming02",
   "Remove duplicated spaces and commas.": "Remove duplicated spaces and commas.",
   "FABRIC": "FABRIC",
-  "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images": "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images"
+  "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images": "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images",
+  "Webpage close confirmation dialogue": "Webpage close confirmation dialogue",
+  "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage"
 }
