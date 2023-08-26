@@ -445,5 +445,7 @@
   "Webpage close confirmation dialogue": "Webpage close confirmation dialogue",
   "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage",
   "sd-webui-discord-ex": "sd-webui-discord-ex",
-  "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot"
+  "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot",
+  "CivitAI Browser Plus": "CivitAI Browser Plus",
+  "This extension allows you to browse and download any model from CivitAi without leaving WebUI!": "This extension allows you to browse and download any model from CivitAi without leaving WebUI!"
 }
