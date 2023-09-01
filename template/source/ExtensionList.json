@@ -447,5 +447,7 @@
   "sd-webui-discord-ex": "sd-webui-discord-ex",
   "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot",
   "CivitAI Browser Plus": "CivitAI Browser Plus",
-  "This extension allows you to browse and download any model from CivitAi without leaving WebUI!": "This extension allows you to browse and download any model from CivitAi without leaving WebUI!"
+  "This extension allows you to browse and download any model from CivitAi without leaving WebUI!": "This extension allows you to browse and download any model from CivitAi without leaving WebUI!",
+  "Img2img batch interrogator": "Img2img batch interrogator",
+  "The extension runs the interrogator before processing each image": "The extension runs the interrogator before processing each image"
 }
