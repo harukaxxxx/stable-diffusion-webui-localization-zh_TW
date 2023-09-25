@@ -461,5 +461,7 @@
   "Model Mixer": "Model Mixer",
   "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.": "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.",
   "Fast PNG Info": "Fast PNG Info",
-  "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.": "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab."
+  "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.": "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.",
+  "sd-webui-mov2mov": "sd-webui-mov2mov",
+  "Process videos frame by frame and automatically merge and export": "Process videos frame by frame and automatically merge and export"
 }
