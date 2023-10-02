@@ -461,5 +461,15 @@
   "Model Mixer": "Model Mixer",
   "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.": "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.",
   "Fast PNG Info": "Fast PNG Info",
-  "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.": "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab."
+  "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.": "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.",
+  "sd-webui-mov2mov": "sd-webui-mov2mov",
+  "Process videos frame by frame and automatically merge and export": "Process videos frame by frame and automatically merge and export",
+  "EasyPhoto": "EasyPhoto",
+  "Support easy photo generation with an online-trained LoRA model that guarantees high-quality output images closely relevant to the input.": "Support easy photo generation with an online-trained LoRA model that guarantees high-quality output images closely relevant to the input.",
+  "sd-webui-rich-text": "sd-webui-rich-text",
+  "An extension allows using a rich-text editor for text-to-image generation (https://github.com/songweige/rich-text-to-image).": "An extension allows using a rich-text editor for text-to-image generation (https://github.com/songweige/rich-text-to-image).",
+  "sd-webui-bg-mask": "sd-webui-bg-mask",
+  "Generate a mask for the image background": "Generate a mask for the image background",
+  "Ranbooru": "Ranbooru",
+  "Get random prompts from different boorus with a lot of creative features to influence the prompts. Works with txt2img and img2img": "Get random prompts from different boorus with a lot of creative features to influence the prompts. Works with txt2img and img2img"
 }
