@@ -475,5 +475,15 @@
   "CivBrowser": "CivBrowser",
   "Extension to search and download Civitai models in multiple tabs. Save model information. Send sample infotext to txt2img.": "Extension to search and download Civitai models in multiple tabs. Save model information. Send sample infotext to txt2img.",
   "NSFW Blurrer-NSFWJS": "NSFW Blurrer-NSFWJS",
-  "Blurs NSFW images using NSFWJS, based on onnxmodel ": "Blurs NSFW images using NSFWJS, based on onnxmodel "
+  "Blurs NSFW images using NSFWJS, based on onnxmodel ": "Blurs NSFW images using NSFWJS, based on onnxmodel ",
+  "NegPiP": "NegPiP",
+  "Enable negative strength in the prompt. This will have a stronger effect than a negative prompt.": "Enable negative strength in the prompt. This will have a stronger effect than a negative prompt.",
+  "CD(Color/Detail) Tuner": "CD(Color/Detail) Tuner",
+  "Adjust color tone, brightness, and level of detailing using a different mechanism of LoRA or ADtailer": "Adjust color tone, brightness, and level of detailing using a different mechanism of LoRA or ADtailer",
+  "DevDark theme": "DevDark theme",
+  "Custom css based on Catppuccin, enable / disabled via extensions tab.": "Custom css based on Catppuccin, enable / disabled via extensions tab.",
+  "auxiliary API": "auxiliary API",
+  "Adds API routes for uploading, removing, syncing models and etc": "Adds API routes for uploading, removing, syncing models and etc",
+  "ReActor": "ReActor",
+  "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required": "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required"
 }
