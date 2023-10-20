@@ -485,5 +485,9 @@
   "auxiliary API": "auxiliary API",
   "Adds API routes for uploading, removing, syncing models and etc": "Adds API routes for uploading, removing, syncing models and etc",
   "ReActor": "ReActor",
-  "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required": "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required"
+  "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required": "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required",
+  "TensorRT": "TensorRT",
+  "TensorRT acceleration for Stable Diffusion on NVIDIA RTX GPUs.": "TensorRT acceleration for Stable Diffusion on NVIDIA RTX GPUs.",
+  "encrypt-image": "encrypt-image",
+  "Encrypt and save the image to the disk to reduce the risk of account suspension when storing images in public clouds. When installing and starting, you need to add the parameter --encrypt-pass=your password.": "Encrypt and save the image to the disk to reduce the risk of account suspension when storing images in public clouds. When installing and starting, you need to add the parameter --encrypt-pass=your password."
 }
