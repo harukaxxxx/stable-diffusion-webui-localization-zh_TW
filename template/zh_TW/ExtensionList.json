@@ -420,8 +420,6 @@
   "Save and load controlnet parameters": "Save and load controlnet parameters",
   "LoRA Control": "LoRA Control",
   "Dynamically control the weights of LoRAs during image generation": "Dynamically control the weights of LoRAs during image generation",
-  "TensorRT support": "TensorRT support",
-  "Adds the ability to convert loaded model's Unet module into TensortRT for faster performance. Read README.md additional installation steps required": "Adds the ability to convert loaded model's Unet module into TensortRT for faster performance. Read README.md additional installation steps required",
   "Wildcards": "萬用字元",
   "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.": "Allows you to use __name__ syntax in your prompt to get a random line from a file named name.txt in the wildcards directory.",
   "SD Ratio Lock": "SD Ratio Lock",
