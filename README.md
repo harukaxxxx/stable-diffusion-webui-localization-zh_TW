@@ -14,7 +14,7 @@
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
 - [ ] ![ExtensionList translated 46%](https://geps.dev/progress/46?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
-- [ ] ![StableDiffusion translated 55%](https://geps.dev/progress/55?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ ] ![StableDiffusion translated 56%](https://geps.dev/progress/56?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 </details>
 
 <details>
