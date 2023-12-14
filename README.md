@@ -97,6 +97,7 @@
 - [ ] ![weight_gradient translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [weight_gradient](https://github.com/DingoBite/weight_gradient)
 - [ ] ![stable-diffusion-webui-composable-lora translated 93%](https://geps.dev/progress/93?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-composable-lora](https://github.com/a2569875/stable-diffusion-webui-composable-lora)
 - [ ] ![sd-webui-agent-scheduler translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-agent-scheduler](https://github.com/ArtVentureX/sd-webui-agent-scheduler)
+- [ ] ![zh-Hans (Stable) translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [zh-Hans (Stable)]()
 </details>
 
 # 安裝說明
