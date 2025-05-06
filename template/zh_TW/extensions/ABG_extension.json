@@ -1,10 +1,10 @@
 {
   "Only save background free pictures": "Only save background free pictures",
-  "Do not auto save": "Do not auto save",
-  "Custom Background": "Custom Background",
+  "Do not auto save": "不要自動儲存",
+  "Custom Background": "自訂背景",
   "Background Color": "背景顏色",
-  "Random Custom Background": "Random Custom Background",
+  "Random Custom Background": "自訂隨機背景",
   "ABG_extension": "ABG_擴展",
   "https://github.com/KutsuyaYuki/ABG_extension.git": "https://github.com/KutsuyaYuki/ABG_extension.git",
-  "ABG Remover": "ABG Remover"
+  "ABG Remover": "ABG 移除器"
 }
